@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<textarea onkeyup="remain()" id="message"rows='5'>
+	</textarea>
+	<p>Number of Charecters left:
+		<spam id="count"></spam>
+	</p>
+	<script type="text/javascript">
+		function remain(){
+			var message=document.
+			    getElementById("message").value,d=document.getElementById("count")
+			    if(message.length<=20)
+			    	d.innerHTML=20-message.length
+			    else
+			    	d.innerHTML="Limit exceeded"
+		}
+	</script>
+
+</body>
+</html>
